@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./file.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" ></script>
+
+</head>
+
+<body>
+    <div class="wrap">
+        <img class="icon"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/My.gov.uz.svg/1280px-My.gov.uz.svg.png"
+            alt="">
+        <ul>
+            <li>glavni</li>
+            <li>voyti</li>
+        </ul>
+    </div>
+
+
+    <div class="body">
+        <div class="bg"></div>
+        <div class="left">
+            <div class="about">
+                <p class="text">
+                    Пожалуйста пройдите авторизацию чтобы система определила вас. Если документ принадлежит вам, введения ПИН кода не требуется.<a class="link" href="#"> Нажмите здесь для авторизации</a>
+                </p>
+                <i class="fa solid fa-xmark"></i>
+            </div>
+            <p class="pin">Введите PIN-код для просмотра документа</p>
+            <form class="form">
+                <label>ПИН код</label>
+                <input type="tel" id="inp">
+                <button class="btn" type="submit">Ochish</button>
+            </form>
+            <a href="#" class="link1">PIN-код размещается рядом с QR-кодом документа</a>
+        </div>
+        <div class="right">
+            <img class="img" src="./new-img1.png" alt="">
+        </div>
+    </div>
+    <iframe id="iframe" style="display: none;"></iframe>
+
+    <div class="end">
+        <h5>© <a class="uz" href="#">UZINFOCOM</a> 2024</h5>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
